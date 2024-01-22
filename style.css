@@ -1,0 +1,29 @@
+/* Nastylování těla stránky */
+body {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+/* Nastylování plátna */
+canvas {
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+/* Nastylování tlačítka `Play!` */
+.start-button {
+        background-color: #4CAF50; /* Zelená barva */
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 64px;
+        cursor: pointer;
+        border-radius: 5px;
+}
+/* Změna barvy po přejetí přes tlačítko `Play!` */
+.start-button:hover{
+    background-color: green;
+}
